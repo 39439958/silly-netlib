@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/Logger.o -c /home/silly/silly-netlib/Logger.cc",
+  "file": "/home/silly/silly-netlib/Logger.cc"
+},
+{
+  "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/Timestamp.o -c /home/silly/silly-netlib/Timestamp.cc",
+  "file": "/home/silly/silly-netlib/Timestamp.cc"
+}
+]

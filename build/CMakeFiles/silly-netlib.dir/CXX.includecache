@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/silly/silly-netlib/Timestamp.cc
+time.h
+-
+Timestamp.h
+/home/silly/silly-netlib/Timestamp.h
+
+/home/silly/silly-netlib/Timestamp.h
+iostream
+-
+string
+-
+

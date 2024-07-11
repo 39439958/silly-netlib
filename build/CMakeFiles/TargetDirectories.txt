@@ -1,0 +1,3 @@
+/home/silly/silly-netlib/build/CMakeFiles/rebuild_cache.dir
+/home/silly/silly-netlib/build/CMakeFiles/edit_cache.dir
+/home/silly/silly-netlib/build/CMakeFiles/silly-netlib.dir
