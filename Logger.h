@@ -2,7 +2,7 @@
 
 #include <string>
 
-#include "nocopyable.h"
+#include "noncopyable.h"
 
 namespace silly {
 
@@ -31,6 +31,7 @@ namespace silly {
         char buf[1024] = {0}; \
         snprintf(buf, 1024, logMsgFormat, ##__VA_ARGS__); \
         logger.log(buf); \
+        exit(-1); \
     } while(0)
 
 #ifdef SILLYDEBUG

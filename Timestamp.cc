@@ -2,8 +2,7 @@
 
 #include "Timestamp.h"
 
-
-namespace silly {
+using namespace silly;
 
 Timestamp::Timestamp() : microSecondsSinceEpoch_(0) {}
 
@@ -25,6 +24,4 @@ std::string Timestamp::toString() const {
         tm_time->tm_min,
         tm_time->tm_sec);
     return buf;
-}
-
 }

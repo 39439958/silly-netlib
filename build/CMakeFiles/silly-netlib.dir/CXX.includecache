@@ -6,15 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/silly/silly-netlib/Timestamp.cc
-time.h
+/home/silly/silly-netlib/Channel.cc
+Channel.h
+/home/silly/silly-netlib/Channel.h
+EventLoop.h
+/home/silly/silly-netlib/EventLoop.h
+Logger.h
+/home/silly/silly-netlib/Logger.h
+sys/epoll.h
 -
+
+/home/silly/silly-netlib/Channel.h
+functional
+-
+memory
+-
+noncopyable.h
+/home/silly/silly-netlib/noncopyable.h
 Timestamp.h
 /home/silly/silly-netlib/Timestamp.h
+
+/home/silly/silly-netlib/EventLoop.h
+
+/home/silly/silly-netlib/Logger.cc
+iostream
+-
+Logger.h
+/home/silly/silly-netlib/Logger.h
+
+/home/silly/silly-netlib/Logger.h
+string
+-
+noncopyable.h
+/home/silly/silly-netlib/noncopyable.h
 
 /home/silly/silly-netlib/Timestamp.h
 iostream
 -
 string
 -
+
+/home/silly/silly-netlib/noncopyable.h
 

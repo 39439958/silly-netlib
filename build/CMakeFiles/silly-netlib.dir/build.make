@@ -57,9 +57,48 @@ include CMakeFiles/silly-netlib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/silly-netlib.dir/flags.make
 
+CMakeFiles/silly-netlib.dir/Channel.o: CMakeFiles/silly-netlib.dir/flags.make
+CMakeFiles/silly-netlib.dir/Channel.o: ../Channel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/silly-netlib.dir/Channel.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/silly-netlib.dir/Channel.o -c /home/silly/silly-netlib/Channel.cc
+
+CMakeFiles/silly-netlib.dir/Channel.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/silly-netlib.dir/Channel.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silly/silly-netlib/Channel.cc > CMakeFiles/silly-netlib.dir/Channel.i
+
+CMakeFiles/silly-netlib.dir/Channel.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/silly-netlib.dir/Channel.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silly/silly-netlib/Channel.cc -o CMakeFiles/silly-netlib.dir/Channel.s
+
+CMakeFiles/silly-netlib.dir/EventLoop.o: CMakeFiles/silly-netlib.dir/flags.make
+CMakeFiles/silly-netlib.dir/EventLoop.o: ../EventLoop.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/silly-netlib.dir/EventLoop.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/silly-netlib.dir/EventLoop.o -c /home/silly/silly-netlib/EventLoop.cc
+
+CMakeFiles/silly-netlib.dir/EventLoop.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/silly-netlib.dir/EventLoop.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silly/silly-netlib/EventLoop.cc > CMakeFiles/silly-netlib.dir/EventLoop.i
+
+CMakeFiles/silly-netlib.dir/EventLoop.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/silly-netlib.dir/EventLoop.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silly/silly-netlib/EventLoop.cc -o CMakeFiles/silly-netlib.dir/EventLoop.s
+
+CMakeFiles/silly-netlib.dir/InetAddress.o: CMakeFiles/silly-netlib.dir/flags.make
+CMakeFiles/silly-netlib.dir/InetAddress.o: ../InetAddress.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/silly-netlib.dir/InetAddress.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/silly-netlib.dir/InetAddress.o -c /home/silly/silly-netlib/InetAddress.cc
+
+CMakeFiles/silly-netlib.dir/InetAddress.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/silly-netlib.dir/InetAddress.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silly/silly-netlib/InetAddress.cc > CMakeFiles/silly-netlib.dir/InetAddress.i
+
+CMakeFiles/silly-netlib.dir/InetAddress.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/silly-netlib.dir/InetAddress.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silly/silly-netlib/InetAddress.cc -o CMakeFiles/silly-netlib.dir/InetAddress.s
+
 CMakeFiles/silly-netlib.dir/Logger.o: CMakeFiles/silly-netlib.dir/flags.make
 CMakeFiles/silly-netlib.dir/Logger.o: ../Logger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/silly-netlib.dir/Logger.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/silly-netlib.dir/Logger.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/silly-netlib.dir/Logger.o -c /home/silly/silly-netlib/Logger.cc
 
 CMakeFiles/silly-netlib.dir/Logger.i: cmake_force
@@ -70,9 +109,22 @@ CMakeFiles/silly-netlib.dir/Logger.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/silly-netlib.dir/Logger.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silly/silly-netlib/Logger.cc -o CMakeFiles/silly-netlib.dir/Logger.s
 
+CMakeFiles/silly-netlib.dir/TcpServer.o: CMakeFiles/silly-netlib.dir/flags.make
+CMakeFiles/silly-netlib.dir/TcpServer.o: ../TcpServer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/silly-netlib.dir/TcpServer.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/silly-netlib.dir/TcpServer.o -c /home/silly/silly-netlib/TcpServer.cc
+
+CMakeFiles/silly-netlib.dir/TcpServer.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/silly-netlib.dir/TcpServer.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/silly/silly-netlib/TcpServer.cc > CMakeFiles/silly-netlib.dir/TcpServer.i
+
+CMakeFiles/silly-netlib.dir/TcpServer.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/silly-netlib.dir/TcpServer.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/silly/silly-netlib/TcpServer.cc -o CMakeFiles/silly-netlib.dir/TcpServer.s
+
 CMakeFiles/silly-netlib.dir/Timestamp.o: CMakeFiles/silly-netlib.dir/flags.make
 CMakeFiles/silly-netlib.dir/Timestamp.o: ../Timestamp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/silly-netlib.dir/Timestamp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/silly-netlib.dir/Timestamp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/silly-netlib.dir/Timestamp.o -c /home/silly/silly-netlib/Timestamp.cc
 
 CMakeFiles/silly-netlib.dir/Timestamp.i: cmake_force
@@ -85,17 +137,25 @@ CMakeFiles/silly-netlib.dir/Timestamp.s: cmake_force
 
 # Object files for target silly-netlib
 silly__netlib_OBJECTS = \
+"CMakeFiles/silly-netlib.dir/Channel.o" \
+"CMakeFiles/silly-netlib.dir/EventLoop.o" \
+"CMakeFiles/silly-netlib.dir/InetAddress.o" \
 "CMakeFiles/silly-netlib.dir/Logger.o" \
+"CMakeFiles/silly-netlib.dir/TcpServer.o" \
 "CMakeFiles/silly-netlib.dir/Timestamp.o"
 
 # External object files for target silly-netlib
 silly__netlib_EXTERNAL_OBJECTS =
 
+libsilly-netlib.so: CMakeFiles/silly-netlib.dir/Channel.o
+libsilly-netlib.so: CMakeFiles/silly-netlib.dir/EventLoop.o
+libsilly-netlib.so: CMakeFiles/silly-netlib.dir/InetAddress.o
 libsilly-netlib.so: CMakeFiles/silly-netlib.dir/Logger.o
+libsilly-netlib.so: CMakeFiles/silly-netlib.dir/TcpServer.o
 libsilly-netlib.so: CMakeFiles/silly-netlib.dir/Timestamp.o
 libsilly-netlib.so: CMakeFiles/silly-netlib.dir/build.make
 libsilly-netlib.so: CMakeFiles/silly-netlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libsilly-netlib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libsilly-netlib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/silly-netlib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

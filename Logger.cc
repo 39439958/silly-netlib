@@ -2,8 +2,7 @@
 
 #include "Logger.h"
 
-namespace silly
-{
+using namespace silly;
     
 Logger& Logger::instance() {
     static Logger logger;
@@ -33,7 +32,4 @@ void Logger::log(std::string msg) {
     }
 
     std::cout << "time" << " : " << msg << std::endl;
-}
-
-
 }

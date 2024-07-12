@@ -3,7 +3,7 @@
 
 #include "InetAddress.h"
 
-namespace silly {
+using namespace silly;
 
 InetAddress::InetAddress(uint16_t port, std::string ip) {
     bzero(&addr_, sizeof addr_);
@@ -31,4 +31,3 @@ uint16_t InetAddress::toPort() const {
     return ntohs(addr_.sin_port);
 }
 
-}

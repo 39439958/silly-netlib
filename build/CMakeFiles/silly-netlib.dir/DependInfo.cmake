@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/silly/silly-netlib/Channel.cc" "/home/silly/silly-netlib/build/CMakeFiles/silly-netlib.dir/Channel.o"
+  "/home/silly/silly-netlib/EventLoop.cc" "/home/silly/silly-netlib/build/CMakeFiles/silly-netlib.dir/EventLoop.o"
+  "/home/silly/silly-netlib/InetAddress.cc" "/home/silly/silly-netlib/build/CMakeFiles/silly-netlib.dir/InetAddress.o"
   "/home/silly/silly-netlib/Logger.cc" "/home/silly/silly-netlib/build/CMakeFiles/silly-netlib.dir/Logger.o"
+  "/home/silly/silly-netlib/TcpServer.cc" "/home/silly/silly-netlib/build/CMakeFiles/silly-netlib.dir/TcpServer.o"
   "/home/silly/silly-netlib/Timestamp.cc" "/home/silly/silly-netlib/build/CMakeFiles/silly-netlib.dir/Timestamp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

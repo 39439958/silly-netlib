@@ -74,12 +74,12 @@ clean: CMakeFiles/silly-netlib.dir/clean
 CMakeFiles/silly-netlib.dir/all:
 	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/depend
 	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=1,2,3 "Built target silly-netlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/silly/silly-netlib/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target silly-netlib"
 .PHONY : CMakeFiles/silly-netlib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/silly-netlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/silly/silly-netlib/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/silly/silly-netlib/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/silly-netlib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/silly/silly-netlib/build/CMakeFiles 0
 .PHONY : CMakeFiles/silly-netlib.dir/rule
