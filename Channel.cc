@@ -4,7 +4,6 @@
 
 #include <sys/epoll.h>
 
-using namespace silly;
 
 const int Channel::kNoneEvent = 0;
 const int Channel::kReadEvent = EPOLLIN | EPOLLPRI;

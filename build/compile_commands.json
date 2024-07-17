@@ -6,6 +6,21 @@
 },
 {
   "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/CurrentThread.o -c /home/silly/silly-netlib/CurrentThread.cc",
+  "file": "/home/silly/silly-netlib/CurrentThread.cc"
+},
+{
+  "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/DefaultPoller.o -c /home/silly/silly-netlib/DefaultPoller.cc",
+  "file": "/home/silly/silly-netlib/DefaultPoller.cc"
+},
+{
+  "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/EpollPoller.o -c /home/silly/silly-netlib/EpollPoller.cc",
+  "file": "/home/silly/silly-netlib/EpollPoller.cc"
+},
+{
+  "directory": "/home/silly/silly-netlib/build",
   "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/EventLoop.o -c /home/silly/silly-netlib/EventLoop.cc",
   "file": "/home/silly/silly-netlib/EventLoop.cc"
 },
@@ -18,6 +33,11 @@
   "directory": "/home/silly/silly-netlib/build",
   "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/Logger.o -c /home/silly/silly-netlib/Logger.cc",
   "file": "/home/silly/silly-netlib/Logger.cc"
+},
+{
+  "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/Poller.o -c /home/silly/silly-netlib/Poller.cc",
+  "file": "/home/silly/silly-netlib/Poller.cc"
 },
 {
   "directory": "/home/silly/silly-netlib/build",

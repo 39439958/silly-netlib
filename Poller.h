@@ -6,7 +6,6 @@
 #include <vector>
 #include <unordered_map>
 
-namespace silly {
 
 class Channel;
 class EventLoop;
@@ -36,5 +35,3 @@ private:
 
 };
 
-
-}

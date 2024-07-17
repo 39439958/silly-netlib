@@ -3,13 +3,37 @@
 
 CMakeFiles/silly-netlib.dir/Channel.o: ../Channel.cc
 CMakeFiles/silly-netlib.dir/Channel.o: ../Channel.h
+CMakeFiles/silly-netlib.dir/Channel.o: ../CurrentThread.h
 CMakeFiles/silly-netlib.dir/Channel.o: ../EventLoop.h
 CMakeFiles/silly-netlib.dir/Channel.o: ../Logger.h
 CMakeFiles/silly-netlib.dir/Channel.o: ../Timestamp.h
 CMakeFiles/silly-netlib.dir/Channel.o: ../noncopyable.h
 
+CMakeFiles/silly-netlib.dir/CurrentThread.o: ../CurrentThread.cc
+CMakeFiles/silly-netlib.dir/CurrentThread.o: ../CurrentThread.h
+
+CMakeFiles/silly-netlib.dir/DefaultPoller.o: ../DefaultPoller.cc
+CMakeFiles/silly-netlib.dir/DefaultPoller.o: ../EpollPoller.h
+CMakeFiles/silly-netlib.dir/DefaultPoller.o: ../Poller.h
+CMakeFiles/silly-netlib.dir/DefaultPoller.o: ../Timestamp.h
+CMakeFiles/silly-netlib.dir/DefaultPoller.o: ../noncopyable.h
+
+CMakeFiles/silly-netlib.dir/EpollPoller.o: ../Channel.h
+CMakeFiles/silly-netlib.dir/EpollPoller.o: ../EpollPoller.cc
+CMakeFiles/silly-netlib.dir/EpollPoller.o: ../EpollPoller.h
+CMakeFiles/silly-netlib.dir/EpollPoller.o: ../Logger.h
+CMakeFiles/silly-netlib.dir/EpollPoller.o: ../Poller.h
+CMakeFiles/silly-netlib.dir/EpollPoller.o: ../Timestamp.h
+CMakeFiles/silly-netlib.dir/EpollPoller.o: ../noncopyable.h
+
+CMakeFiles/silly-netlib.dir/EventLoop.o: ../Channel.h
+CMakeFiles/silly-netlib.dir/EventLoop.o: ../CurrentThread.h
 CMakeFiles/silly-netlib.dir/EventLoop.o: ../EventLoop.cc
 CMakeFiles/silly-netlib.dir/EventLoop.o: ../EventLoop.h
+CMakeFiles/silly-netlib.dir/EventLoop.o: ../Logger.h
+CMakeFiles/silly-netlib.dir/EventLoop.o: ../Poller.h
+CMakeFiles/silly-netlib.dir/EventLoop.o: ../Timestamp.h
+CMakeFiles/silly-netlib.dir/EventLoop.o: ../noncopyable.h
 
 CMakeFiles/silly-netlib.dir/InetAddress.o: ../InetAddress.cc
 CMakeFiles/silly-netlib.dir/InetAddress.o: ../InetAddress.h
@@ -17,6 +41,12 @@ CMakeFiles/silly-netlib.dir/InetAddress.o: ../InetAddress.h
 CMakeFiles/silly-netlib.dir/Logger.o: ../Logger.cc
 CMakeFiles/silly-netlib.dir/Logger.o: ../Logger.h
 CMakeFiles/silly-netlib.dir/Logger.o: ../noncopyable.h
+
+CMakeFiles/silly-netlib.dir/Poller.o: ../Channel.h
+CMakeFiles/silly-netlib.dir/Poller.o: ../Poller.cc
+CMakeFiles/silly-netlib.dir/Poller.o: ../Poller.h
+CMakeFiles/silly-netlib.dir/Poller.o: ../Timestamp.h
+CMakeFiles/silly-netlib.dir/Poller.o: ../noncopyable.h
 
 CMakeFiles/silly-netlib.dir/TcpServer.o: ../TcpServer.cc
 CMakeFiles/silly-netlib.dir/TcpServer.o: ../TcpServer.h

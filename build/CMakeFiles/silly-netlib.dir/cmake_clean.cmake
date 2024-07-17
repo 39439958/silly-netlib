@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/silly-netlib.dir/Channel.o"
+  "CMakeFiles/silly-netlib.dir/CurrentThread.o"
+  "CMakeFiles/silly-netlib.dir/DefaultPoller.o"
+  "CMakeFiles/silly-netlib.dir/EpollPoller.o"
   "CMakeFiles/silly-netlib.dir/EventLoop.o"
   "CMakeFiles/silly-netlib.dir/InetAddress.o"
   "CMakeFiles/silly-netlib.dir/Logger.o"
+  "CMakeFiles/silly-netlib.dir/Poller.o"
   "CMakeFiles/silly-netlib.dir/TcpServer.o"
   "CMakeFiles/silly-netlib.dir/Timestamp.o"
   "libsilly-netlib.pdb"

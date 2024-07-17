@@ -139,6 +139,51 @@ Channel.s:
 .PHONY : Channel.s
 
 # target to build an object file
+CurrentThread.o:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/CurrentThread.o
+.PHONY : CurrentThread.o
+
+# target to preprocess a source file
+CurrentThread.i:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/CurrentThread.i
+.PHONY : CurrentThread.i
+
+# target to generate assembly for a file
+CurrentThread.s:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/CurrentThread.s
+.PHONY : CurrentThread.s
+
+# target to build an object file
+DefaultPoller.o:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/DefaultPoller.o
+.PHONY : DefaultPoller.o
+
+# target to preprocess a source file
+DefaultPoller.i:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/DefaultPoller.i
+.PHONY : DefaultPoller.i
+
+# target to generate assembly for a file
+DefaultPoller.s:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/DefaultPoller.s
+.PHONY : DefaultPoller.s
+
+# target to build an object file
+EpollPoller.o:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EpollPoller.o
+.PHONY : EpollPoller.o
+
+# target to preprocess a source file
+EpollPoller.i:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EpollPoller.i
+.PHONY : EpollPoller.i
+
+# target to generate assembly for a file
+EpollPoller.s:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EpollPoller.s
+.PHONY : EpollPoller.s
+
+# target to build an object file
 EventLoop.o:
 	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EventLoop.o
 .PHONY : EventLoop.o
@@ -184,6 +229,21 @@ Logger.s:
 .PHONY : Logger.s
 
 # target to build an object file
+Poller.o:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/Poller.o
+.PHONY : Poller.o
+
+# target to preprocess a source file
+Poller.i:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/Poller.i
+.PHONY : Poller.i
+
+# target to generate assembly for a file
+Poller.s:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/Poller.s
+.PHONY : Poller.s
+
+# target to build an object file
 TcpServer.o:
 	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/TcpServer.o
 .PHONY : TcpServer.o
@@ -225,6 +285,15 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... CurrentThread.o"
+	@echo "... CurrentThread.i"
+	@echo "... CurrentThread.s"
+	@echo "... DefaultPoller.o"
+	@echo "... DefaultPoller.i"
+	@echo "... DefaultPoller.s"
+	@echo "... EpollPoller.o"
+	@echo "... EpollPoller.i"
+	@echo "... EpollPoller.s"
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"
@@ -234,6 +303,9 @@ help:
 	@echo "... Logger.o"
 	@echo "... Logger.i"
 	@echo "... Logger.s"
+	@echo "... Poller.o"
+	@echo "... Poller.i"
+	@echo "... Poller.s"
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"

@@ -2,8 +2,6 @@
 
 #include "Timestamp.h"
 
-using namespace silly;
-
 Timestamp::Timestamp() : microSecondsSinceEpoch_(0) {}
 
 Timestamp::Timestamp(int64_t microSecondsSinceEpoch) 

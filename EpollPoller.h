@@ -6,8 +6,6 @@
 #include <vector>
 #include <sys/epoll.h>
 
-namespace silly {
-
 class EpollPoller : public Poller {
 public:
     EpollPoller(EventLoop *loop);
@@ -30,5 +28,3 @@ private:
     int epollfd_;
     EventList events_;
 };
-
-}

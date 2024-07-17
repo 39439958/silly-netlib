@@ -7,8 +7,6 @@
 #include "Timestamp.h"
 
 
-namespace silly {
-
 class EventLoop;
 
 class Channel : noncopyable {
@@ -80,5 +78,3 @@ private:
     EventCallback errorCallback_;
 };
 
-
-}

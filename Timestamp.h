@@ -3,7 +3,6 @@
 #include <iostream>
 #include <string>
 
-namespace silly {
 
 class Timestamp {
 public:
@@ -17,5 +16,3 @@ public:
 private:
     int64_t microSecondsSinceEpoch_;
 };
-
-}

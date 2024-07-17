@@ -4,7 +4,7 @@
 #include <netinet/in.h>
 #include <string>
 
-namespace silly {
+
 
 class InetAddress {
 public:
@@ -23,4 +23,3 @@ private:
     sockaddr_in addr_;
 };
 
-}

@@ -4,7 +4,6 @@
 
 #include "noncopyable.h"
 
-namespace silly {
 
 #define LOG_INFO(logMsgFormat, ...) \
     do { \
@@ -67,5 +66,3 @@ private:
     Logger(){}
 };
 
-
-}

@@ -2,7 +2,6 @@
 
 #include "Logger.h"
 
-using namespace silly;
     
 Logger& Logger::instance() {
     static Logger logger;
