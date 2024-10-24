@@ -51,6 +51,10 @@ CMakeFiles/silly-netlib.dir/Poller.o: ../noncopyable.h
 CMakeFiles/silly-netlib.dir/TcpServer.o: ../TcpServer.cc
 CMakeFiles/silly-netlib.dir/TcpServer.o: ../TcpServer.h
 
+CMakeFiles/silly-netlib.dir/Thread.o: ../CurrentThread.h
+CMakeFiles/silly-netlib.dir/Thread.o: ../Thread.cc
+CMakeFiles/silly-netlib.dir/Thread.o: ../Thread.h
+
 CMakeFiles/silly-netlib.dir/Timestamp.o: ../Timestamp.cc
 CMakeFiles/silly-netlib.dir/Timestamp.o: ../Timestamp.h
 

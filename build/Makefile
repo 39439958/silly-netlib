@@ -199,6 +199,36 @@ EventLoop.s:
 .PHONY : EventLoop.s
 
 # target to build an object file
+EventLoopThread.o:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EventLoopThread.o
+.PHONY : EventLoopThread.o
+
+# target to preprocess a source file
+EventLoopThread.i:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EventLoopThread.i
+.PHONY : EventLoopThread.i
+
+# target to generate assembly for a file
+EventLoopThread.s:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EventLoopThread.s
+.PHONY : EventLoopThread.s
+
+# target to build an object file
+EventLoopThreadPoll.o:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EventLoopThreadPoll.o
+.PHONY : EventLoopThreadPoll.o
+
+# target to preprocess a source file
+EventLoopThreadPoll.i:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EventLoopThreadPoll.i
+.PHONY : EventLoopThreadPoll.i
+
+# target to generate assembly for a file
+EventLoopThreadPoll.s:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/EventLoopThreadPoll.s
+.PHONY : EventLoopThreadPoll.s
+
+# target to build an object file
 InetAddress.o:
 	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/InetAddress.o
 .PHONY : InetAddress.o
@@ -259,6 +289,21 @@ TcpServer.s:
 .PHONY : TcpServer.s
 
 # target to build an object file
+Thread.o:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/Thread.o
+.PHONY : Thread.o
+
+# target to preprocess a source file
+Thread.i:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/Thread.i
+.PHONY : Thread.i
+
+# target to generate assembly for a file
+Thread.s:
+	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/Thread.s
+.PHONY : Thread.s
+
+# target to build an object file
 Timestamp.o:
 	$(MAKE) -f CMakeFiles/silly-netlib.dir/build.make CMakeFiles/silly-netlib.dir/Timestamp.o
 .PHONY : Timestamp.o
@@ -297,6 +342,12 @@ help:
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"
+	@echo "... EventLoopThread.o"
+	@echo "... EventLoopThread.i"
+	@echo "... EventLoopThread.s"
+	@echo "... EventLoopThreadPoll.o"
+	@echo "... EventLoopThreadPoll.i"
+	@echo "... EventLoopThreadPoll.s"
 	@echo "... InetAddress.o"
 	@echo "... InetAddress.i"
 	@echo "... InetAddress.s"
@@ -309,6 +360,9 @@ help:
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"
+	@echo "... Thread.o"
+	@echo "... Thread.i"
+	@echo "... Thread.s"
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"

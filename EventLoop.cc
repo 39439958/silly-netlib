@@ -6,6 +6,8 @@
 #include <sys/eventfd.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <memory>
+#include <errno.h>
 
 // 用于判断当前线程是否只有一个EventLoop对象
 __thread EventLoop *t_loopInThisThread = nullptr;
@@ -52,7 +54,7 @@ EventLoop::EventLoop()
 EventLoop::~EventLoop()
 {
     wakeupChannel_->disableAll();
-    wakeupChannel_->remove();
+    wakeupChannel_->remove(); 
     ::close(wakeupFd_);
     t_loopInThisThread = nullptr;
 }
@@ -83,10 +85,50 @@ void EventLoop::quit()
 {
     quit_ = true;
 
+    // 如果在其他线程中，则重新唤醒
     if (!isInLoopThread())
     {
         wakeup();
     }
+}
+
+void EventLoop::runInLoop(Functor cb) {
+    if (isInLoopThread()) {
+        cb();
+    } else { // 在非当前 loop 线程中执行 cb
+        queueInLoop(std::move(cb));
+    }
+}
+
+void EventLoop::queueInLoop(Functor cb) {
+    // lock
+    {
+        std::unique_lock<std::mutex> lock(mutex_);
+        pendingFunctors_.push_back(std::move(cb));
+    }
+    if (!isInLoopThread() || callingPendingFunctors_) {
+        wakeup();
+    }
+}
+
+void EventLoop::wakeup() {
+    uint64_t one = 1;
+    ssize_t n = write(wakeupFd_, &one, sizeof one);
+    if (n != sizeof one) {
+        LOG_ERROR("EventLoop:wakeup() writes %lu bytes instead of 8 \n", n);
+    }
+}
+
+void EventLoop::updateChannel(Channel *channel) {
+    poller_->updateChannel(channel);
+}
+
+void EventLoop::removeChannel(Channel *channel) {
+    poller_->removeChannel(channel);
+}
+
+bool EventLoop::hasChannel(Channel *channel) {
+    return poller_->hasChannel(channel);
 }
 
 
@@ -96,6 +138,22 @@ void EventLoop::handleRead()
     ssize_t n = read(wakeupFd_, &one, sizeof one);
     if (n != sizeof one) 
     {
-        LOG_ERROR("EventLoop::handleRead() reads %d bytes instead of 8", n);
+        LOG_ERROR("EventLoop::handleRead() reads %ld bytes instead of 8", n);
     }
+}
+
+void EventLoop::doPendingFunctors() {
+    std::vector<Functor> functors;
+    callingPendingFunctors_ = true;
+
+    {
+        std::unique_lock<std::mutex> lock(mutex_);
+        functors.swap(pendingFunctors_);
+    }
+
+    for (const Functor &functors : functors) {
+        functors();
+    }
+
+    callingPendingFunctors_ = false;
 }

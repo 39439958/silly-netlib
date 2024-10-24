@@ -26,6 +26,16 @@
 },
 {
   "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/EventLoopThread.o -c /home/silly/silly-netlib/EventLoopThread.cc",
+  "file": "/home/silly/silly-netlib/EventLoopThread.cc"
+},
+{
+  "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/EventLoopThreadPoll.o -c /home/silly/silly-netlib/EventLoopThreadPoll.cc",
+  "file": "/home/silly/silly-netlib/EventLoopThreadPoll.cc"
+},
+{
+  "directory": "/home/silly/silly-netlib/build",
   "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/InetAddress.o -c /home/silly/silly-netlib/InetAddress.cc",
   "file": "/home/silly/silly-netlib/InetAddress.cc"
 },
@@ -43,6 +53,11 @@
   "directory": "/home/silly/silly-netlib/build",
   "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/TcpServer.o -c /home/silly/silly-netlib/TcpServer.cc",
   "file": "/home/silly/silly-netlib/TcpServer.cc"
+},
+{
+  "directory": "/home/silly/silly-netlib/build",
+  "command": "/usr/bin/c++  -Dsilly_netlib_EXPORTS   -g --std=c++11 -g -fPIC   -o CMakeFiles/silly-netlib.dir/Thread.o -c /home/silly/silly-netlib/Thread.cc",
+  "file": "/home/silly/silly-netlib/Thread.cc"
 },
 {
   "directory": "/home/silly/silly-netlib/build",

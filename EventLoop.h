@@ -62,6 +62,7 @@ private:
     Channel *currentActiveChannel_;
 
     std::atomic_bool callingPendingFunctors_;
+    std::vector<Functor> pendingFunctors_;
     std::mutex mutex_;
 };
 
